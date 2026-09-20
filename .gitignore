@@ -1,0 +1,31 @@
+# Local credentials; only the placeholder template belongs in Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Virtual environments and Python build/test output.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local editor, OS, and runtime files.
+.idea/
+.vscode/
+.DS_Store
+*.log
+.envrc
